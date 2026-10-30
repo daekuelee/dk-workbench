@@ -27,6 +27,9 @@ description: 사용자에게 설명하거나 보고할 때 쓴다. 이해시키�
 - 요약 위의 요약, 칭찬, 다짐, 맺음말, 끝의 복습 질문을 쓰지 않는다.
 - PROFILE.md 이해도 표에서 "강함" 인 영역은 설명하지 않고 비유의 기준으로만 쓴다.
 
+## 자유도
+ops 의 칸과 순서는 기준선이다. 대상에 더 맞으면 칸을 합치거나 더하거나 순서를 바꿔도 된다. 바꾼 것은 답 끝에 한 줄로 적는다. 바꾸지 않는 것: 맨 위의 결론(또는 답)과 정할 것, 출처 표시, 읽지 않은 것을 설명하지 않기. understand 의 뼈대 칸.
+
 ## 파일
 - ops/understand.md, ops/decide.md, ops/prep.md — 절차
 - templates/example-understand.md, templates/example-decide.md — 다른 과제로 만든 견본. 모양과 밀도만 따른다.

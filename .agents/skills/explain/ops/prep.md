@@ -5,7 +5,7 @@
 ## 절차
 1. docs/plan.md, docs/questions.md, docs/worklog.md, docs/limits.md(있으면), git log 를 읽는다.
 2. 앱을 한 번 돌려 요청 하나를 따라간다.
-3. docs/reports/prep.md 를 아래 순서로 쓴다. 50줄 이하.
+3. docs/reports/prep.md 를 아래 순서로 쓴다. 150줄 이하.
 
 ## 순서
 1. 뼈대 한 문장과 그림 하나 (understand 의 2, 3 칸).

@@ -2,15 +2,11 @@
 
 Codex 로 업무형 과제를 푸는 개인 키트입니다.
 
-시작 (과제 작업 폴더의 터미널에서, Codex 밖에서):
+시작 (과제 폴더의 터미널에서):
 ```
 git clone --depth 1 https://github.com/daekuelee/dk-workbench .kit && bash .kit/install.sh && rm -rf .kit
 ```
-git 이 없거나 clone 이 막히면:
-```
-curl -sL https://github.com/daekuelee/dk-workbench/archive/refs/heads/master.tar.gz | tar xz && bash dk-workbench-master/install.sh && rm -rf dk-workbench-master
-```
-키트를 과제 폴더 안에 받아 복사하고 받은 폴더는 지운다 (홈 폴더를 쓰지 않으므로 웹 IDE 에서도 같다). 그다음 Codex 를 새로 열고 PROMPTS.md 의 P1 부터.
+그다음 Codex 를 새로 열고 PROMPTS.md 의 P1 부터.
 
 ## 키트를 고칠 때의 규칙
 - 늘 읽히는 것만 짧게 둔다: AGENTS.md, 스킬의 name 과 description.

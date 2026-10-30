@@ -2,6 +2,10 @@
 
 모든 프롬프트는 스킬과 op 이름을 부른다. 스킬이 절차를 갖고 있으므로 프롬프트는 짧아도 된다. 대신 내 판단(고른 것, 이유, 버린 것)은 꼭 내 말로 넣는다. 그 문장이 의도 관리의 증거다.
 
+P-1 키트 가져오기 (터미널에서 직접, 또는 Codex 에게)
+> git clone https://github.com/daekuelee/cofa-kit ~/kit && bash ~/kit/install.sh
+> 그다음 Codex 를 끄고 새로 연다. AGENTS.md 와 스킬은 세션을 시작할 때 읽힌다.
+
 P0 지금 어디인가 (새 세션, 길을 잃었을 때)
 > setup status. docs/state.md 진행 표를 보고 다음에 할 op 하나만 말해 줘.
 

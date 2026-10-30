@@ -2,12 +2,11 @@
 
 Codex 로 업무형 과제를 푸는 개인 키트입니다.
 
-시작:
+시작 (과제 작업 폴더에서):
 ```
-git clone https://github.com/daekuelee/cofa-kit ~/kit
-cp -r ~/kit/docs-template docs && cp -r ~/kit/roles ~/kit/rules ~/kit/.agents . && cp ~/kit/AGENTS.md ~/kit/PROFILE.md ~/kit/PLAYBOOK.md ~/kit/verify.sh ~/kit/ask.sh .
+git clone https://github.com/daekuelee/cofa-kit ~/kit && bash ~/kit/install.sh
 ```
-그다음 PROMPTS.md 의 P1 부터.
+그다음 Codex 를 새로 열고 PROMPTS.md 의 P1 부터.
 
 ## 키트를 고칠 때의 규칙
 - 늘 읽히는 것만 짧게 둔다: AGENTS.md, 스킬의 name 과 description.

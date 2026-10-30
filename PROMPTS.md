@@ -3,7 +3,8 @@
 모든 프롬프트는 스킬과 op 이름을 `$이름` 으로 부른다 (Codex 공식 명시 호출. 안 먹으면 `$` 없이 이름만 쓴다). 스킬이 절차를 갖고 있으므로 프롬프트는 짧아도 된다. 대신 내 판단(고른 것, 이유, 버린 것)은 꼭 내 말로 넣는다. 그 문장이 의도 관리의 증거다.
 
 P-1 키트 가져오기 (Codex 밖의 터미널에서 직접. Codex 에게 시키지 않는다: 샌드박스가 .agents 와 .git 을 막아 스킬이 빠진다)
-> git clone https://github.com/daekuelee/dk-workbench ~/kit && bash ~/kit/install.sh
+> git clone --depth 1 https://github.com/daekuelee/dk-workbench .kit && bash .kit/install.sh && rm -rf .kit
+> (git 이 없으면) curl -sL https://github.com/daekuelee/dk-workbench/archive/refs/heads/master.tar.gz | tar xz && bash dk-workbench-master/install.sh && rm -rf dk-workbench-master
 > 그다음 Codex 를 끄고 새로 연다. AGENTS.md 와 스킬은 세션을 시작할 때 읽힌다.
 > 폴더 신뢰 질문에는 예. `/permissions` 로 Auto(작업 폴더 쓰기 + 필요할 때 승인)인지 본다.
 > 작업 폴더가 git 저장소가 아니면 install.sh 가 `git init` 한다. `codex exec` 는 git 저장소에서만 돈다.

@@ -11,7 +11,7 @@ description: 과제를 처음 받았을 때 쓴다. README 와 자료를 읽고 
 | op | 입력 | 출력 | 멈추는 곳 |
 |---|---|---|---|
 | read | README.md, 자료 폴더(data/, uploads/ 등), SITUATION.md, PROFILE.md | docs/setup.md (templates/setup.md 모양) | 파일을 쓰고 "정할 것: 아키텍처 안" 을 보인 뒤 |
-| fill | 사용자가 고른 안과 이유 한 줄, docs/setup.md | AGENTS.md 스택 칸, docs/plan.md, docs/questions.md, docs/state.md, docs/context.md (이번 과제 칸) | 바꾼 파일 목록을 보고한 뒤 |
+| fill | 사용자가 고른 안과 이유 한 줄, docs/setup.md | AGENTS.md 스택 칸, docs/plan.md, docs/questions.md, docs/state.md, docs/context.md (이번 과제 칸), docs/prompts.md (이번 과제용 프롬프트) | 바꾼 파일 목록을 보고한 뒤 |
 | status | docs/state.md 진행 표 | 다음 op 한 줄 | 바로 |
 
 ## 자유도 — 절차는 기준선이다

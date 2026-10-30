@@ -11,7 +11,7 @@
 아래 명령의 결과를 docs/setup.md "환경 확인" 표에 적는다. 결과마다 설계에 주는 영향을 한 줄 붙인다.
 - 언어: `python3 --version`, `node --version`
 - 이미 있는 패키지: `python3 -c "import fastapi, uvicorn"`, `python3 -c "import flask"` (없으면 "없음")
-- 설치가 되는지: `pip --version`, `curl -sI https://pypi.org/simple/ | head -1` (응답이 없으면 표준 라이브러리 안으로 간다)
+- 설치가 되는지: `pip --version`, `curl -sI https://pypi.org/simple/ | head -1` (응답이 없으면 샌드박스가 막은 것인지 먼저 가린다. 승인을 요청해 다시 보거나, "사람이 터미널에서 확인" 을 Helper 질문 목록에 넣는다. 둘 다 안 되면 표준 라이브러리 안으로 간다)
 - 앱 안에서 쓸 AI: `env | grep -iE 'openai|anthropic|api_key|llm|model' | sed 's/=.*/=<값 있음>/'`. 값은 절대 적지 않는다. 없으면 Helper 에게 물을 질문으로 넘긴다.
 - 포트: `ss -ltn 2>/dev/null | head` 로 이미 쓰는 포트를 본다.
 - 확인하지 못한 것은 "Helper 에게 물을 것" 목록에 넣는다.

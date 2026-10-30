@@ -13,6 +13,11 @@ read로 초기 이해·자료 특성·풀어야 할 질문을 드러낸다. 사�
 | fill | 사용자 확인·선택, 질문·답 원문 또는 원문 파일 경로 | 필요한 기록의 갱신, 준비도와 남은 쟁점 | 준비 완료 또는 추가 확인이 필요한 이유를 보고한다 |
 | status | docs/state.md | 현재 위치와 다음 후보 | 답만 한다. 다음 작업을 실행하지 않는다 |
 
+`read`는 기존 단일 세션 방식이다. 선택적으로 두 터미널에 나눌 수 있다.
+- `read main`: [ops/read.md](ops/read.md)의 main 모드. README와 초기 업무 이해·질문·환경·공식 기록을 맡고 자료 보고를 기다리느라 사용자 인계를 늦추지 않는다.
+- `read files` (`read file`도 같은 뜻): [ops/read-files.md](ops/read-files.md). 자료의 관찰·출처·한계만 반환한다. 메인 문서와 질문·답 원문을 쓰지 않는다.
+- 같은 과제 폴더의 `setup-parallel.sh main`을 먼저, 다른 터미널에서 `setup-parallel.sh files`를 실행하면 분담과 자료 보고 경로가 연결된다. 모델·effort는 인자로 지정하거나 현재 환경 설정을 따른다. 병렬 실행은 의무가 아니며 코딩 절차를 고정하지 않는다.
+
 read와 fill 전에 해당 ops 파일을 끝까지 읽는다. read만 요청했다면 fill로 넘어가지 않는다. 명확한 확인을 다시 요구하지 않는다. fill에서 부족한 부분이 나와도 read부터 재시작하지 않고 기존 이해와 받은 답을 이어 쓴다. 파트너 질문 전달과 다음 작업은 사용자가 한다.
 
 ## 준비도와 완료 기준
@@ -41,4 +46,4 @@ read와 fill 전에 해당 ops 파일을 끝까지 읽는다. read만 요청했�
 - [references/question-ladder.md](references/question-ladder.md): 질문 후보를 만들거나 받은 답을 검토할 때.
 - [references/archetypes.md](references/archetypes.md): 설계 후보가 필요할 때만. [references/rulings.md](references/rulings.md)는 과거 판정이며 현재 행동은 SKILL과 ops를 따른다.
 
-설명은 PROFILE.md에 맞춘다. 상세한 설명이 필요하면 explain을 쓴다. 완료한 op와 setup 전체의 완료 여부는 state에 구분해 기록한다. 설치는 install.sh가 맡는다.
+사용자에게 보여 주는 설명과 새 기록은 한국어로 쓰고 인용 원문의 언어는 보존한다. 설명은 PROFILE.md에 맞춘다. 상세한 설명이 필요하면 explain을 쓴다. 메인은 완료한 op와 setup 전체의 완료 여부를 state에 구분해 기록한다. files 담당은 별도 자료 보고만 남긴다. 읽기 전용 실행에서는 실행기가 저장하며 직접 호출의 저장 경계는 read-files를 따른다. 설치는 install.sh가 맡는다.

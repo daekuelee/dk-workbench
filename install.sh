@@ -9,8 +9,8 @@ git rev-parse --git-dir >/dev/null 2>&1 || git init -q 2>/dev/null
 mkdir -p docs
 cp -n "$K"/docs-template/*.md docs/ 2>/dev/null
 cp -rn "$K/roles" "$K/rules" "$K/.agents" . 2>/dev/null
-for f in AGENTS.md PROFILE.md PLAYBOOK.md SITUATION.md PROMPTS.md verify.sh ask.sh; do cp -n "$K/$f" . 2>/dev/null; done
-chmod +x verify.sh ask.sh 2>/dev/null
+for f in AGENTS.md PROFILE.md PLAYBOOK.md SITUATION.md PROMPTS.md verify.sh ask.sh setup-parallel.sh; do cp -n "$K/$f" . 2>/dev/null; done
+chmod +x verify.sh ask.sh setup-parallel.sh 2>/dev/null
 ok=1
 for p in .agents/skills/setup/SKILL.md .agents/skills/research/SKILL.md .agents/skills/explain/SKILL.md AGENTS.md docs/state.md; do
   [ -f "$p" ] || { echo "실패: $p 가 없다."; ok=0; }

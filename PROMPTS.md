@@ -12,6 +12,15 @@ P0 지금 어디인가 (끊긴 세션은 `codex resume --last`, 컨텍스트는 
 P1 시작 준비
 > $setup read. README와 제공 자료의 대표 내용을 읽고 초기 업무 이해·자료 특성·한계를 보여 줘. 풀어야 할 질문과 왜 필요한지, 무엇을 바꾸는지 제안하고 현재 준비도를 알려 줘.
 
+P1-a 직접 두 Codex 세션으로 시작
+> 같은 과제 폴더에서 새 Codex 두 개를 열고 한쪽에는 `$setup read main`, 다른 쪽에는 `$setup read file`을 입력한다.
+> file 담당은 별도 자료 보고서 경로를 반환한다. 받은 답을 반영할 때 메인에 `$setup fill. 자료 보고는 〈보고 경로〉이고 질문 답은 questions에 있어.`라고 요청한다. 질문마다 fill할 필요는 없다.
+
+P1-b 실행기로 분담·보고 경로 연결 (Codex 밖의 터미널)
+> 터미널 1: `bash /과제/절대경로/setup-parallel.sh main` → `$setup read main`
+> 터미널 2: `bash /과제/절대경로/setup-parallel.sh files` → `$setup read files`
+> main 명령 뒤에 모델·effort를 붙일 수 있다. files는 같은 실행의 설정을 이어받는다. 메인은 첫 질문을 먼저 넘기고 자료 결과를 기다리지 않는다. 파트너 대화는 별도 창에서 한다. 자료 확인이 끝나면 그 터미널은 다른 작업에 쓸 수 있다. 기존 `$setup read`도 그대로 쓸 수 있다.
+
 P2 받은 답 반영과 준비 완료 판단
 > $setup fill. docs/questions.md의 새 원문과 〈추가 원문 파일 또는 없음〉을 반영해 줘. 목표 85점 기준으로 준비됐는지, 출발을 바꿀 미확인이 남았는지 판단해 줘. 고칠 점은 〈없음 또는 수정할 사실〉.
 

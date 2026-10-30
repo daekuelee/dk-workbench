@@ -6,4 +6,4 @@
 3. plan 에 없는데 만든 것.
 4. 가장 큰 위험 하나와 그것을 확인할 명령.
 5. 담당자에게 아직 묻지 않은 것 하나.
-답의 모양은 .agents/skills/explain/SKILL.md 의 모양 B 를 따른다.
+답의 모양은 .agents/skills/explain/ops/decide.md 를 따른다.

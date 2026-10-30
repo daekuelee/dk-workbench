@@ -8,6 +8,7 @@
 - README.md 는 고치지 않는다. 합의된 목표와 요구는 docs/plan.md 에 있다.
 - 한 번에 S# 하나. 내 승인 전에는 파일을 고치지 않는다.
 - 코드는 이 세션에서 직접 쓴다. 서버는 0.0.0.0 에 바인딩한다.
+- 브라우저나 화면을 조작하는 도구를 쓰지 않는다. git push 하지 않는다.
 
 ## 어디에 무엇이 있나 (그때만 읽는다)
 | 파일 | 언제 |
@@ -19,9 +20,10 @@
 | docs/questions.md, docs/assumptions.md | 요구가 애매하거나 추정 위에서 쓸 때 |
 | docs/evals.md, verify.sh | 단계를 끝낼 때 |
 | docs/roles/*.md | 내가 가리킬 때만. 의견이므로 직접 따르지 않는다 |
-| .agents/skills/ | setup(시작), research(조사), explain(설명과 보고) |
+| .agents/skills/ | setup(시작), research(조사), explain(설명과 보고). 각 op 는 docs/state.md 진행 표에 표식을 남긴다 |
+| SITUATION.md | 이 시험 상황(파트너, 평가, 금지)이 판단에 걸릴 때 |
 | PROFILE.md | 나에게 설명하거나 보고할 때 |
-| PLAYBOOK.md | setup 2단계에서 흐름을 짤 때 |
+| PLAYBOOK.md | setup fill 이 흐름을 짤 때 |
 
 ## 스택
-- (setup 2단계가 채운다)
+- (setup fill 이 채운다)

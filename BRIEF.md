@@ -23,7 +23,7 @@
 - 성공 조건: (어떤 명령이 어떤 결과를 내면 끝)
 
 ## C. 시작 순서 (첫 10분)
-1. `cp -r ~/kit/docs-template docs && cp ~/kit/AGENTS.md ~/kit/verify.sh .`
+1. `cp -r ~/kit/docs-template docs && cp -r ~/kit/roles . && cp ~/kit/AGENTS.md ~/kit/verify.sh ~/kit/ask.sh .`
 2. README 를 읽고 목표 후보 한 줄, 질문 후보, 추정 후보를 questions.md 와 assumptions.md 에 적는다.
 3. 담당자에게 작은 질문부터 묻고, 답 원문을 questions.md 에 붙인다.
 4. plan.md 에 R# 와 S# 계단을 쓴다. S1 = 가장 작은 동작본.

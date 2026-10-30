@@ -1,10 +1,10 @@
-# cofa-kit
+# dk-workbench
 
 Codex 로 업무형 과제를 푸는 개인 키트입니다.
 
 시작 (과제 작업 폴더에서):
 ```
-git clone https://github.com/daekuelee/cofa-kit ~/kit && bash ~/kit/install.sh
+git clone https://github.com/daekuelee/dk-workbench ~/kit && bash ~/kit/install.sh
 ```
 그다음 Codex 를 새로 열고 PROMPTS.md 의 P1 부터.
 

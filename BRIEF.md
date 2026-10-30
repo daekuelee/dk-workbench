@@ -17,8 +17,9 @@
 - 금지: (범위 밖, 새 라이브러리, 내가 안 정한 설계)
 - 성공 조건: (어떤 명령이 어떤 결과를 내면 끝)
 
-## C. docs/plan.md 에 적을 것
-- 목표 한 줄 (담당자의 말 그대로)
-- 합의한 요구 (번호, 출처 = 담당자 답 몇 번)
-- 하지 않는 것
-- 스택과 이유 한 줄
+## C. 시작 순서 (첫 10분)
+1. `cp -r ~/kit/docs-template docs && cp ~/kit/AGENTS.md .`
+2. README 를 읽고 목표 후보 한 줄, 질문 후보, 추정 후보를 questions.md 와 assumptions.md 에 적는다.
+3. 담당자에게 작은 질문부터 묻고, 답 원문을 questions.md 에 붙인다.
+4. plan.md 에 R# 와 S# 계단을 쓴다. S1 = 가장 작은 동작본.
+5. codex 를 연다. 첫 지시: "AGENTS.md 와 docs/state.md, docs/plan.md 를 읽고 S1 계획을 5줄로 보여 줘."

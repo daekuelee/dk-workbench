@@ -19,12 +19,12 @@
 | docs/state.md | 현재 위치·막힘·다음 후보. 새 세션과 작업을 이어갈 때 |
 | docs/context.md | 이번 과제의 자료 위치·환경. 해당 사실이 필요할 때 |
 | docs/plan.md | 합의된 목표·범위·설계·성공 조건. 구현·변경 판단 때 |
-| docs/questions.md | 질문과 파트너 답 원문. 업무 기준을 확인할 때 |
+| docs/questions.md | 사용자 입력 영역의 질문·답 원문, AI 영역의 후보·상태·반영 연결. 업무 기준을 확인할 때 |
 | docs/assumptions.md | 판단·구현에 사용하는 미확인 가정. 해당 가정에 의존할 때 |
 | docs/worklog.md | 실제 결정·변경·검증의 이력. 이유를 되짚을 때 |
 | rules/steps.md, rules/verify.md | 구현 단계의 승인·완료와 검증 원칙 |
 | docs/evals.md, verify.sh | 기대 행동과 출처, 실행 검사. 관련 기능을 검증할 때 |
-| .agents/skills/ | setup은 시작 맥락, research는 질문 조사, explain은 이해·판단을 돕는 설명 |
+| .agents/skills/ | setup은 초기 이해·질문·답 반영과 준비 완료 판단, research는 질문 조사, explain은 이해·판단을 돕는 설명 |
 | docs/roles/*.md | 별도 역할의 의견. 내가 채택한 내용만 반영 |
 | SITUATION.md, PROFILE.md | 시험 상황 또는 읽는 사람에 맞춰 판단·설명할 때 |
 | PLAYBOOK.md, PROMPTS.md | 시간 배분이나 다음 요청을 정할 때 참고 |

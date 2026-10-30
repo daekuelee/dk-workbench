@@ -19,7 +19,7 @@
    - 지금 단계: 질문 단계. 다음 단계: S0.
    - 실행 방법: 1의 명령.
    - 흐름: PLAYBOOK.md 구간표를 README 의 작업 시간에 맞게 비례로 줄여 옮긴다. A·C·D 유형이면 evals 역할 줄을 뺀다.
-5. .agents/skills/explain/SKILL.md 와 .agents/skills/research/SKILL.md 끝에 "## 이번 과제" 칸을 더한다
+5. docs/context.md 에 "## 이번 과제" 칸을 쓴다 (explain 과 research 가 op 마다 읽는다. .agents 는 샌드박스에서 읽기 전용이라 거기에 쓰지 않는다)
    - 실제 사용자 한 줄 (모르면 "확인 전").
    - 도메인 용어 다섯 개와 한 줄 뜻. 줄마다 "(확인 전)".
    - 이번 유형에서 비유의 기준: PROFILE.md 의 강한 영역 중 이 구조와 가장 가까운 것 하나.

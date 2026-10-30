@@ -14,7 +14,7 @@ description: 모르는 도메인이나 기술을 조사할 때 쓴다. 도메인
 | tech | 만들 기능 한 줄, plan.md 스택 칸 | 후보 비교 표, 추천 하나, 가장 작은 사용 예 |
 
 - 답은 explain 스킬의 decide 모양으로 쓴다. 30줄을 넘으면 docs/reports/<HHMM>-research-<주제>.md 에 쓴다.
-- op 를 시작하기 전에 ops/<op>.md 를 읽는다. 끝나면 docs/state.md 진행 표에 한 줄을 남긴다.
+- op 를 시작하기 전에 ops/<op>.md 를 읽는다. docs/context.md 가 있으면 함께 읽는다 (setup fill 이 쓴 이번 과제 칸). 끝나면 docs/state.md 진행 표에 한 줄을 남긴다.
 - 답 하나로 끝낸다. 더 필요하면 다음 조사 질문 하나를 제안하고 멈춘다.
 
 ## 출처 규칙

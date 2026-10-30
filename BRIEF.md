@@ -22,5 +22,5 @@
 2. README 를 읽고 목표 후보 한 줄, 질문 후보, 추정 후보를 questions.md 와 assumptions.md 에 적는다.
 3. 담당자에게 작은 질문부터 묻고, 답 원문을 questions.md 에 붙인다.
 4. plan.md 에 R# 와 S# 계단을 쓴다. S1 = 가장 작은 동작본.
-5. codex 를 연다. 첫 지시: "AGENTS.md 와 docs/state.md, docs/plan.md 를 읽고 S0 조사를 해 줘. 파일은 고치지 마."
+5. codex 를 연다. 첫 지시: "AGENTS.md 와 docs/state.md, docs/plan.md 를 읽고 S0 조사를 해 줘. 코드는 만들지 말고 docs/ 만 써."
 6. S0 결과를 보고 추정(A#)과 검증 계획(완료 조건)을 내가 확정한다. 그다음 S1.

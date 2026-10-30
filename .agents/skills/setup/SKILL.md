@@ -6,5 +6,5 @@ description: 과제를 처음 받았을 때 README 를 읽고 상황 시트, 문
 
 답은 explain 의 모양 B 로 쓴다. 두 단계이고, 1단계 뒤에 반드시 멈춘다.
 
-1. 1단계: references/sheet.md 를 따라 docs/setup.md 하나만 쓴다. 유형과 안은 references/archetypes.md 에서 고른다. 끝에 "정할 것: 아키텍처 안" 을 쓰고 멈춘다.
+1. 1단계: references/sheet.md 를 따라 docs/setup.md 하나만 쓴다. 유형과 안은 references/archetypes.md 에서 고른다. "정할 것: 아키텍처 안" 은 둘째 줄에 쓴다. 60줄을 넘기지 않는다. 쓰고 나면 멈춘다.
 2. 2단계: 사용자가 안을 고른 뒤에만 references/fill.md 를 따라 키트를 채우고, 바꾼 파일 목록을 보고하고 멈춘다.

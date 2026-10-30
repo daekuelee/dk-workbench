@@ -4,9 +4,9 @@
 set -eu
 K=$(cd "$(dirname "$0")" && pwd)
 mkdir -p docs
-cp -n "$K"/docs-template/*.md docs/
-cp -rn "$K/roles" "$K/rules" "$K/.agents" .
-for f in AGENTS.md PROFILE.md PLAYBOOK.md SITUATION.md verify.sh ask.sh; do cp -n "$K/$f" .; done
+cp -n "$K"/docs-template/*.md docs/ 2>/dev/null
+cp -rn "$K/roles" "$K/rules" "$K/.agents" . 2>/dev/null
+for f in AGENTS.md PROFILE.md PLAYBOOK.md SITUATION.md verify.sh ask.sh; do cp -n "$K/$f" . 2>/dev/null; done
 chmod +x verify.sh ask.sh
 echo "키트를 복사했다: $(ls -d AGENTS.md .agents docs rules roles | tr '\n' ' ')"
 echo "다음: Codex 를 새로 연다 (AGENTS.md 와 스킬은 세션을 시작할 때 읽힌다)."
